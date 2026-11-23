@@ -1,0 +1,93 @@
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAF8F3"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tvEventName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tech Fest 2026"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="#7B1E3A"
+            android:gravity="center"
+            android:padding="15dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="STAGE"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:background="#7B1E3A"
+            android:padding="12dp"
+            android:layout_marginBottom="25dp" />
+
+        <LinearLayout
+            android:id="@+id/seatContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Seat Status"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#7B1E3A"
+            android:gravity="center"
+            android:layout_marginTop="25dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🟢 Available       🔴 Booked       🟡 Selected"
+            android:textSize="14sp"
+            android:textColor="#222222"
+            android:gravity="center"
+            android:padding="12dp" />
+
+        <TextView
+            android:id="@+id/tvSelectedSeats"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Selected Seats: None"
+            android:textSize="16sp"
+            android:textColor="#222222"
+            android:padding="10dp" />
+
+        <TextView
+            android:id="@+id/tvTotalAmount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Total Amount: ₹0"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#7B1E3A"
+            android:padding="10dp" />
+
+        <Button
+            android:id="@+id/btnBookNow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Book Now"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#7B1E3A"
+            android:layout_marginTop="15dp" />
+
+    </LinearLayout>
+
+</ScrollView>
