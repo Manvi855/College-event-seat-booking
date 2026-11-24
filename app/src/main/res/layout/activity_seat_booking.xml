@@ -83,10 +83,10 @@
             android:id="@+id/btnBookNow"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Book Now"
-            android:textColor="#FFFFFF"
+            android:layout_marginTop="15dp"
             android:backgroundTint="#7B1E3A"
-            android:layout_marginTop="15dp" />
+            android:text="Book Now"
+            android:textColor="#FFFFFF" />
 
     </LinearLayout>
 
